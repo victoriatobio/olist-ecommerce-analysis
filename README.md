@@ -3,7 +3,7 @@
 Análisis de datos de Olist, un marketplace brasileño, usando SQL en BigQuery.
 
 ## Dataset
-[Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — 100k órdenes reales entre 2016 y 2018, con información de clientes, sellers, pagos y reviews.
+[Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — 100k órdenes reales entre 2016 y 2018, con información de clientes, vendedores, pagos y reviews.
 
 ## Análisis
 ### 1. Distribución de órdenes por estado
@@ -17,8 +17,8 @@ Comparación del valor promedio de compra según el estado de la orden.
 ### 3. Clientes recurrentes
 Identificación de clientes que realizaron más de una compra y su gasto total acumulado.
 
-### 4. Ranking de sellers por revenue
-Top 20 sellers ordenados por revenue total usando window functions.
+### 4. Ranking de vendedores por revenue
+Top 20 vendedores ordenados por revenue total usando window functions.
 
 ## Herramientas
 - SQL (BigQuery)
